@@ -6,7 +6,8 @@ main.exe
 #VS Code 配置
 .vscode/
 
-data/
+data.json
+students.json
 
 tests/
 
