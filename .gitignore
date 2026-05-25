@@ -1,0 +1,12 @@
+#编译产物
+maze.exe
+main.exe
+*.o
+*.out
+#VS Code 配置
+.vscode/
+
+data/
+
+tests/
+
