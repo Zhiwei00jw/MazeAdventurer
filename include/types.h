@@ -33,6 +33,8 @@ struct Team {
     std::string name; //队伍名称
     std::vector<int> memberIds; //队伍成员的ID
     std::time_t lastActiveTime; //最近一次冒险时间
+    std::vector<int> profession_static;//队伍中的职业数量统计，便于评级
+    //0:warrior;1:mage;2:ranger;3.rogue;4:cleric
     int rating;//队伍综合评级
 };
 struct CasualtyInfo{
